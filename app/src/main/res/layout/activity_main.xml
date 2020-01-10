@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="248dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="521dp"
+        android:background="@android:color/background_light"
+        android:contentDescription="Enter The Time"
+        android:ems="10"
+        android:hint="Enter the time"
+        android:inputType="number"
+        android:scrollbarSize="8dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="99dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="383dp"
+        android:text="Start"
+        android:textStyle="bold"
+        android:onClick="start1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+</androidx.constraintlayout.widget.ConstraintLayout>
